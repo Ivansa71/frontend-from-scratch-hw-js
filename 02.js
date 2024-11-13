@@ -7,13 +7,9 @@
 
 // your code
 let factorial = 3628800;
-let number = 10;
+let n = 10;
 
+while(n) factorial *= (n--);
 
-
-while (circle = 10) {
-    factorial = number  * (number - 1) * (number - 2) * (number - 3) * (number - 4) * (number - 5) * (number - 6) * (number - 7) * (number - 8) * (number - 9);
-
-   console.log(factorial);
-}
+console.log(x);
 
