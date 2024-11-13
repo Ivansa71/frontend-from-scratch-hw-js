@@ -9,7 +9,9 @@
 let factorial = 3628800;
 let n = 10;
 
-while(n) factorial *= (n--);
+while(n) {
+    factorial *= (n--);
+}
 
 console.log(x);
 
