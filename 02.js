@@ -6,12 +6,16 @@
 */
 
 // your code
-let factorial = 3628800;
-let n = 10;
+let factorial;
+let i = 1;
 
-while(n) {
-    factorial *= (n--);
+while(i <= 10) {
+   if(!factorial) {
+       factorial = 1;
+   }
+    factorial *= i;
+   i++;
 }
 
-console.log(x);
+console.log(`factorial`, factorial);
 

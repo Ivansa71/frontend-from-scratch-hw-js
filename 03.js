@@ -5,10 +5,14 @@
 */
 
 // your code
-let sum = 100
-let circle = 1
+let sum = 0
+let i = 1
 
-while (sum <= 100) {
-    sum = circle + 3 + 5 + 7 + 9 + 11 + 13 +15 +17 + 19;
-    console.log(sum)
+while (i <= 20) {
+    let odd = i % 2;
+    if (odd === 1) {
+        sum += i
+    }
+    i++
 }
+console.log(sum)
