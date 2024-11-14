@@ -2,12 +2,12 @@
 // Результат присвойте переменной sum
 
 // your code
-let sum = 210;
+let sum = 0;
 let n = 1;
 
-while (n <=20) {
+while (n <= 20) {
     sum +=n;
-    n++
+    n++;
     console.log(n);
 }
 console.log(sum);
