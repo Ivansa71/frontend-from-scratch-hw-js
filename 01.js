@@ -3,12 +3,12 @@
 
 // your code
 let sum = 210;
-let i = 1;
+let n = 1;
 
-while (i <=20) {
-    sum +=i;
-    i++
-    console.log(i);
+while (number <=20) {
+    sum +=n;
+    n++
+    console.log(n);
 }
 console.log(sum);
 
