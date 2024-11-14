@@ -5,7 +5,7 @@
 let sum = 210;
 let n = 1;
 
-while (number <=20) {
+while (n <=20) {
     sum +=n;
     n++
     console.log(n);
