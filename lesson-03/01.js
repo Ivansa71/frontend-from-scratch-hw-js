@@ -1,17 +1,16 @@
-// Напишите функцию calculateAverage, которая принимает 2 числа и возвращает их среднее арифметическое
+const numbers1 = 4;
+const numbers2 = 5;
 
-const numbers = [4, 6];
-
-function calculateAverage(numbers) {
+function calculateAverage(numbers1, numbers2) {
   let summ = 0;
   let count = 0;
-  const length = numbers.length;
+  const length = 2;
   while (count < length) {
-    summ = summ + numbers[count];
+    summ = numbers1 + numbers2;
     count++;
   }
-  const result = summ / numbers.length;
+  const result = summ / length;
   return result;
 }
 
-console.log(calculateAverage(numbers));
+console.log(calculateAverage(numbers1, numbers2));
