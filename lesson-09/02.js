@@ -34,7 +34,7 @@ const map = (array, callback) => {
 
     const value = callback(element, index);
     if (value) {
-      result.push(element * 2);
+      result.push(value);
     }
   }
   return result;
@@ -45,4 +45,6 @@ const doubledNumbers = map(numbers, (element, index) => {
 });
 
 console.log(doubledNumbers);
+
+
 
